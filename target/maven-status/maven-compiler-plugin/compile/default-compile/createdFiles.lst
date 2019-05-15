@@ -1,0 +1,7 @@
+com\intelliarts\testproject\Main$1.class
+com\intelliarts\testproject\Main.class
+com\intelliarts\testproject\util\TestProjectUtil.class
+com\intelliarts\testproject\model\Product.class
+com\intelliarts\testproject\service\PurchaseService.class
+com\intelliarts\testproject\model\Purchase.class
+com\intelliarts\testproject\model\Operation.class
