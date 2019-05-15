@@ -2,6 +2,7 @@ package com.intelliarts.testproject.service;
 
 import com.intelliarts.testproject.model.Product;
 import com.intelliarts.testproject.model.Purchase;
+import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
 
@@ -27,6 +28,11 @@ public class PurchaseServiceTest {
         purchases.add(new Purchase(new Product("coat", 55, "EUR"), LocalDate.parse("2019-04-25")));
 
         map.put(LocalDate.parse("2019-04-25"), purchases);
+    }
+
+    @After
+    public void tearDown(){
+        map = new HashMap <>();
     }
 
     @Test
